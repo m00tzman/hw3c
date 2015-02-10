@@ -16,6 +16,7 @@ img{
 }
 
 #container{
+	overflow: hidden;
 	width: 700px;
 	min-height: 100%;
 	border: solid gray 1px;
