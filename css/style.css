@@ -8,27 +8,69 @@ body{
 	background-color: rgba(65,65,65,0.1);
 }
 
-img{
+.image{
 	height: 250px;
 	width: 250px;
-	padding: 50px;
+	margin-left: 2%;
+	margin-bottom: 2%;
 	float: left;
+	border: solid 2px red;
+}
+
+#waluigi{
+	background-image: url('../images/waluigi.jpeg');
+	background-repeat: no-repeat;
+}
+
+#ken{
+	background-image: url('../images/ken.jpg');
+	background-repeat: no-repeat;
+}
+
+#cat{
+	background-image: url('../images/cat.jpg');
+	background-repeat: no-repeat;
+	clear: both;
+
+}
+
+#bomberman{
+	background-image: url('../images/bomberman.jpg');
+	background-repeat: no-repeat;
+
+}
+
+#stardust{
+	background-image: url('../images/stardust.jpg');
+	background-repeat: no-repeat;
+	clear: both;
+}
+
+#buster{
+	background-image: url('../images/buster.jpg');
+	background-repeat: no-repeat;
 }
 
 #container{
 	overflow: hidden;
-	width: 700px;
+	width: 45%;
 	min-height: 100%;
-	border: solid gray 1px;
 	margin: auto;
 	background-color: rgba(255,255,255,0.9);
 }
 
-#cat{
-	clear: both;
-}
-
-#stardust{
-	clear: both;
+@media all and (max-width: 480px){
+	body{
+		background-color: blue;
+	}
+	#container{
+		background-color: gray;
+	}
+	.image{
+		height: 175px;
+		width: 175px;
+		background-size: 175px 175px;
+		border: none;
+	}
 }
 
